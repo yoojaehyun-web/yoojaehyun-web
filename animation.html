@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>info</title>
+	<style>
+		#container div { 
+			width: 100px;
+			height: 100px;
+            background-color: red;
+            position: relative;
+            animation-name: example;
+            animation-duration:4s;
+            animation-interation-count: infinte;
+		}
+		#container ul:active{
+            display: none;
+        }
+        @keyframes ex {
+            0% {
+                background-color: red;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color: yellow;
+                left: 200px;
+                top: 0px;
+            }
+            50%{
+                background-color: green;
+                left: 200px;
+                top: 200px;
+            }
+            75%{
+                background-color: blue;
+                left: 0px;
+                top: 200px;
+            }
+            100%{
+                background-color: red;
+                left: 0px;
+                top:0px;
+            }
+            
+	</style>
+</head>
+<body>
+    <div id='container'>
+        <h2>Todo List</h2>
+            <ul>
+                <li>온라인 수업 듣기</li>
+                <li>수행평가 준비하기</li>
+                <li>학원 다녀오기</li>
+            </ul>
+            <hr>
+            <div></div>
+    </body>
+</html>
